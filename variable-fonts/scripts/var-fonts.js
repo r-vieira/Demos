@@ -1,6 +1,5 @@
 /* eslint-env browser */
 /* eslint-disable no-var, prefer-template, strict, prefer-arrow-callback, object-shorthand, no-continue, no-undefined, no-constant-condition */
-/*globals event*/
 
 /*
  *	VARIABLE FONTS SCRIPTS
