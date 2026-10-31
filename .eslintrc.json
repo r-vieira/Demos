@@ -95,7 +95,7 @@
 			}
 		],
 		"no-proto": 2,
-		"no-redeclare": 2,
+		"no-redeclare": [2, { "builtinGlobals": false }],
 		"no-restricted-properties": "error",
 		"no-return-assign": 2,
 		"no-script-url": 2,
@@ -221,7 +221,8 @@
 			"tab",
 			{
 				"SwitchCase": 1,
-				"VariableDeclarator": 1
+				"VariableDeclarator": 1,
+				"ignoreComments": true
 			}
 		],
 		"key-spacing": [
